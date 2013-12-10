@@ -13,7 +13,18 @@
 if (!defined("WHMCS"))
 	die("This file cannot be accessed directly");
 
+/*
+ * **************************************************************
+ * CONFIGURATION - Start
+ */
+
+// Define the ListID of the target subscriber list in Oempro
 define('OEMPRO_TARGET_SUBSCRIBER_LIST_ID', 1);
+
+/*
+ * CONFIGURATION - End
+ * **************************************************************
+ */
 
 function oempro_subscribe_config()
 {
