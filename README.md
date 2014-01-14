@@ -1,8 +1,8 @@
 WHMCS add-on for Oempro
 ============
 
-This WHMCS add-on lets you to add any client accounts created to a subscriber mail list in your Oempro installation.
+This WHMCS addon lets you add WHMCS clients as Oempro subscribers automatically during regstration.
 
-After installing this addon, edit oempro_subscribe.php file and define the ListID of the target subscriber list in Oempro
+It will subscribe to a specific list under a specific user:
 
-Once a new client account is created, the email address will be subscribed to the target subscriber mail list
+Upload and install this addon to the server, edit oempro_subscribe.php file by defining the ListID # at the top of the document and configure the addon from WHMCS admin: Setup -> Addon Module -> Configure
